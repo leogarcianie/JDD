@@ -1,0 +1,58 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "vacunas",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "mascotaID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "userID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "recordatorios",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "idusario",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "idMascota",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha",
+          "order": "ASCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "clinica",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "mascotaid",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "userID",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "fecha",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
